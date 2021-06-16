@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Nikita\Documents\aiplessons\week8\week8\main.cpp(22,47): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Nikita\Documents\aiplessons\week8\week8\main.cpp(25,52): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+  week8.vcxproj -> C:\Users\Nikita\Documents\aiplessons\week8\Debug\week8.exe
