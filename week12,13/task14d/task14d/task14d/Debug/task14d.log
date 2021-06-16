@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Nikita\Documents\aiplessons\week12,13\task14d\task14d\task14d\main.cpp(14,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Nikita\Documents\aiplessons\week12,13\task14d\task14d\task14d\main.cpp(21,24): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  task14d.vcxproj -> C:\Users\Nikita\Documents\aiplessons\week12,13\task14d\task14d\Debug\task14d.exe

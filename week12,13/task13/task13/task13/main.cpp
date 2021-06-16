@@ -1,0 +1,24 @@
+#include <iostream>
+
+//13. Увеличить все отрицательные элементы на 5, а положительные уменьшить на 1
+
+int main() {
+	setlocale(0, "");
+	const int n = 10;
+	int arr[n];
+
+	std::cout << "Начальный массив: ";
+	for (int i = 0; i < n; i++) {
+		arr[i] = rand() % 10 - 5;
+		std::cout << arr[i] << " ";
+	}
+
+	std::cout << "\nИзмененный массив имеет вид: ";
+	for (int i = 0; i < n; i++) {
+		if (arr[i] < 0)
+			arr[i] = arr[i] * 5;
+		if (arr[i] > 0) 
+			arr[i] = arr[i] - 1;
+			std::cout << arr[i] << " ";
+	}
+}
